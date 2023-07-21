@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // 初始化header
   const initAdjust = () => {
     adjustMenu(true)
-    $nav.classList.add('show')
+    // $nav.classList.add('show') //nav的开关
   }
 
   // sidebar menus
@@ -320,15 +320,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollTask = btf.throttle(() => {
       const currentTop = window.scrollY || document.documentElement.scrollTop
       const isDown = scrollDirection(currentTop)
-      if (currentTop > 56) {
+      if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
+      if (currentTop > 36) {
+        $nav.classList.add('show')
+        if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
         if (isDown) {
-          if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
           if (isChatBtn && isChatShow === true) {
             window.chatBtn.hide()
             isChatShow = false
           }
-        } else {
-          if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
+        } 
+        else {
+          // if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
           if (isChatBtn && isChatShow === false) {
             window.chatBtn.show()
             isChatShow = true
@@ -340,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       } else {
         if (currentTop === 0) {
-          $header.classList.remove('nav-fixed', 'nav-visible')
+          $header.classList.remove('nav-visible')
         }
         $rightside.style.cssText = "opacity: ''; transform: ''"
       }
