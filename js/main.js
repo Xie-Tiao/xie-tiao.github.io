@@ -297,14 +297,14 @@ document.addEventListener('DOMContentLoaded', function () {
    */
   const scrollFn = function () {
     const $rightside = document.getElementById('rightside')
-    const innerHeight = window.innerHeight + 56
+    const innerHeight = window.innerHeight + 400
     let initTop = 0
     let isChatShow = true
     const $header = document.getElementById('page-header')
     const isChatBtn = typeof chatBtn !== 'undefined'
     const isShowPercent = GLOBAL_CONFIG.percent.rightside
 
-    // 當滾動條小于 56 的時候
+    // 當滾動條小于 400 的時候
     if (document.body.scrollHeight <= innerHeight) {
       $rightside.style.cssText = 'opacity: 1; transform: translateX(-58px)'
       return
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const currentTop = window.scrollY || document.documentElement.scrollTop
       const isDown = scrollDirection(currentTop)
       if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
-      if (currentTop > 36) {
+      if (currentTop > 400) {
         $nav.classList.add('show')
         if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
         if (isDown) {
