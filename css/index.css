@@ -5779,6 +5779,7 @@ blockquote.pullquote.right {
 }
 .search-dialog hr {
   margin: 20px auto;
+  background-color: #954e3e;
 }
 #search-mask {
   position: fixed;
@@ -5844,7 +5845,7 @@ blockquote.pullquote.right {
   line-height: 24px;
 }
 #algolia-search .search-dialog .ais-Pagination .ais-Pagination-item--selected a {
-  background: #d2a876;
+  background: #954e3e;
   color: #eee;
   cursor: default;
 }

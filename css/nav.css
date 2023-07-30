@@ -35,3 +35,6 @@
     box-sizing: content-box;
     line-height: 35px;
 }
+.search-dialog hr:before {
+    color: #954e3e;
+}

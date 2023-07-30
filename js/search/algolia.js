@@ -138,7 +138,8 @@ window.addEventListener('load', () => {
           .replace(/\$\{hits}/, data.nbHits)
           .replace(/\$\{time}/, data.processingTimeMS)
         return (
-          `<hr>${stats}`
+          // `<hr>${stats}`
+          `${stats}`
         )
       }
     }
