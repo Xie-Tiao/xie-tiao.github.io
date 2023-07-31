@@ -278,7 +278,8 @@ window.addEventListener('load', () => {
 
       container.classList.remove('no-result')
       container.innerHTML = `<div class="search-result-list">${resultItems.map(result => result.item).join('')}</div>`
-      statsItem.innerHTML = `<hr><div class="search-result-stats">${stats}</div>`
+      // statsItem.innerHTML = `<hr><div class="search-result-stats">${stats}</div>`
+      statsItem.innerHTML = `<div class="search-result-stats">${stats}</div>`
       window.pjax && window.pjax.refresh(container)
     }
 

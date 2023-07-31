@@ -38,3 +38,7 @@
 .search-dialog hr:before {
     color: #954e3e;
 }
+
+#algolia-search .search-dialog #algolia-info .ais-PoweredBy-logo path:nth-child(2) {
+    fill: #954e3e;
+}
