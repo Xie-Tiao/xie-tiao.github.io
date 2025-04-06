@@ -3951,7 +3951,7 @@ h1.page-title + .tag-cloud-list {
 }
 .post-reward .reward-main .reward-all .reward-item img {
   width: 130px;
-  height: 130px;
+  height: auto;
 }
 .post-reward .reward-main .reward-all .reward-item .post-qr-code-desc {
   width: 130px;
