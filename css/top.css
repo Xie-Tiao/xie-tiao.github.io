@@ -23,19 +23,19 @@
 }
 
 #resume img:hover {
-    content: url('/img/简介1.png');
+    content: url('/img/简介1.webp');
 }
 
 #works img:hover {
-    content: url('/img/作品1.png');
+    content: url('/img/作品1.webp');
 }
 
 #articles img:hover {
-    content: url('/img/文章1.png');
+    content: url('/img/文章1.webp');
 }
 
 #contact img:hover {
-    content: url('/img/联系1.png');
+    content: url('/img/联系1.webp');
 }
 
 #payment {
