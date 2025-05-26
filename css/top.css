@@ -1,0 +1,67 @@
+#resume {
+    position: absolute;
+    left: 21vw;
+    top: 10vw;
+}
+
+#works {
+    position: absolute;
+    left: 73vw;
+    top: 10vw;
+}
+
+#articles {
+    position: absolute;
+    left: 27vw;
+    top: 27.5vw;
+}
+
+#contact {
+    position: absolute;
+    left: 62vw;
+    top: 29vw;
+}
+
+#resume img:hover {
+    content: url('/img/简介1.webp');
+}
+
+#works img:hover {
+    content: url('/img/作品1.webp');
+}
+
+#articles img:hover {
+    content: url('/img/文章1.webp');
+}
+
+#contact img:hover {
+    content: url('/img/联系1.webp');
+}
+
+#payment {
+    position: absolute;
+    left: 1vw;
+    top: 30.5vw;
+    width: 14vw;
+    height: 10vw;
+}
+
+.hover-image {
+    display: none;
+    position: absolute;
+    pointer-events: none;
+    /* Prevent the image from interfering with mouse events */
+}
+
+#payment:hover .hover-image {
+    display: block;
+}
+
+#bangumi {
+    position: absolute;
+    left: 1vw;
+    top: 9vw;
+    width: 14vw;
+    height: 18vw;
+    cursor: pointer;
+}
