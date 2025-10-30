@@ -1486,7 +1486,7 @@ img:not([src]) {
   filter: alpha(opacity=0);
 }
 .img-alt {
-  margin: -10px 0 10px;
+  margin: 10px 0;
   color: #858585;
 }
 .img-alt:hover {
@@ -3682,7 +3682,7 @@ h1.page-title + .tag-cloud-list {
 }
 #article-container img {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   max-width: 100%;
   -webkit-transition: filter 375ms ease-in 0.2s;
   -moz-transition: filter 375ms ease-in 0.2s;

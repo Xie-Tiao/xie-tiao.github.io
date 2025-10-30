@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xie-tiao.github.io/posts/299379030/</loc>
+    
+    <lastmod>2025-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xie-tiao.github.io/works/index.html</loc>
     
     <lastmod>2025-10-18</lastmod>
@@ -146,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xie-tiao.github.io/posts/3335457524/</loc>
+    <loc>https://xie-tiao.github.io/posts/3874924358/</loc>
     
     <lastmod>2025-09-23</lastmod>
     
@@ -155,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://xie-tiao.github.io/posts/3874924358/</loc>
+    <loc>https://xie-tiao.github.io/posts/3335457524/</loc>
     
     <lastmod>2025-09-23</lastmod>
     
@@ -218,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://xie-tiao.github.io/posts/2442233745/</loc>
+    <loc>https://xie-tiao.github.io/posts/1405574286/</loc>
     
     <lastmod>2025-09-23</lastmod>
     
@@ -227,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://xie-tiao.github.io/posts/1405574286/</loc>
+    <loc>https://xie-tiao.github.io/posts/2442233745/</loc>
     
     <lastmod>2025-09-23</lastmod>
     
@@ -382,7 +391,7 @@
 
   <url>
     <loc>https://xie-tiao.github.io/</loc>
-    <lastmod>2025-10-18</lastmod>
+    <lastmod>2025-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
